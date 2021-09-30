@@ -8,6 +8,8 @@ btnClicked.addEventListener("click", () => {
   let angle1 = parseInt(angle1Input.value);
   let angle2 = parseInt(angle2Input.value);
   let angle3 = parseInt(angle3Input.value);
+  console.log(angle1, angle2, angle3);
+
   isTriangle(angle1, angle2, angle3);
 });
 
